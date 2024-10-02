@@ -7,12 +7,12 @@ income = cost
 rent = cost
 utilities = cost
 groceries = cost
-transp = cost
+transportation = cost
     
 
 
 savings = float(income) * float(0.2)
-expenses = float(rent) + float(utilities) + float(groceries) + float(transp)
+expenses = float(rent) + float(utilities) + float(groceries) + float(transportation)
 spending = float(income)-float(expenses)-float(savings)
 
 print("your expenses are", expenses)
@@ -27,5 +27,5 @@ def percent(type, ammount):
 percent("rent", rent)
 percent("utilities", utilities)
 percent("groceries", groceries)
-percent("transportation", transp)
+percent("transportation", transportation)
 percent("expenses", expenses)
