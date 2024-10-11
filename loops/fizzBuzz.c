@@ -26,7 +26,7 @@ int main(){
         }else if (i%5==0){
         // replace numbers divisable by 5 with "buzz"
         printf("%s\n",two);
-        }else {
+        }else if{
         printf("%d\n", i); //print the number
         }
     }
